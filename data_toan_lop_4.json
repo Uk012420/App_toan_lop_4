@@ -1,0 +1,3502 @@
+[
+    {
+        "id": "TBC_1",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 46, 21 và 101.",
+        "answer": "56",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_1",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 99, hiệu của hai số là 19. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 59, Số bé: 40",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_1",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 565, 559, 565, 558. Số nào chia hết cho 9?",
+        "answer": "558",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_1",
+        "type": "Phân số",
+        "question": "Tính: 6/11 + 9/11",
+        "answer": "15/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_1",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 33cm và 11cm.",
+        "answer": "181 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_2",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 12, 155 và 121.",
+        "answer": "96",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_2",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 150, hiệu của hai số là 24. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 87, Số bé: 63",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_2",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 216, 218, 218, 223. Số nào chia hết cho 3?",
+        "answer": "216",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_2",
+        "type": "Phân số",
+        "question": "Tính: 4/11 + 9/11",
+        "answer": "13/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_2",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 35cm và 36cm.",
+        "answer": "630 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_3",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 10, 12 và 59.",
+        "answer": "27",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_3",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 468, hiệu của hai số là 86. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 277, Số bé: 191",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_3",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 377, 371, 374, 370. Số nào chia hết cho 5?",
+        "answer": "370",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_3",
+        "type": "Phân số",
+        "question": "Tính: 6/7 - 4/7",
+        "answer": "2/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_3",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 49cm và chiều cao là 9cm.",
+        "answer": "441 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_4",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 79, 56 và 153.",
+        "answer": "96",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_4",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 333, hiệu của hai số là 103. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 218, Số bé: 115",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_4",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 68, 66, 70, 73. Số nào chia hết cho 2?",
+        "answer": "66",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_4",
+        "type": "Phân số",
+        "question": "Tính: 1/8 + 2/8",
+        "answer": "3/8",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_4",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 15cm và chiều cao là 22cm.",
+        "answer": "330 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_5",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 39, 16 và 71.",
+        "answer": "42",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_5",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 245, hiệu của hai số là 153. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 199, Số bé: 46",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_5",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 470, 477, 474, 474. Số nào chia hết cho 5?",
+        "answer": "470",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_5",
+        "type": "Phân số",
+        "question": "Tính: 5/13 + 7/13",
+        "answer": "12/13",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_5",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 14cm và chiều cao là 30cm.",
+        "answer": "420 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_6",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 31, 35 và 42.",
+        "answer": "36",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_6",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 347, hiệu của hai số là 231. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 289, Số bé: 58",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_6",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 280, 280, 276, 278. Số nào chia hết cho 3?",
+        "answer": "276",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_6",
+        "type": "Phân số",
+        "question": "Tính: 6/8 - 1/8",
+        "answer": "5/8",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_6",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 34cm và 19cm.",
+        "answer": "323 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_7",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 44, 63 và 64.",
+        "answer": "57",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_7",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 313, hiệu của hai số là 271. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 292, Số bé: 21",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_7",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 128, 132, 132, 132. Số nào chia hết cho 2?",
+        "answer": "128",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_7",
+        "type": "Phân số",
+        "question": "Tính: 7/10 - 2/10",
+        "answer": "1/2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_7",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 48cm và chiều cao là 26cm.",
+        "answer": "1248 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_8",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 18, 23 và 34.",
+        "answer": "25",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_8",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 151, hiệu của hai số là 43. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 97, Số bé: 54",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_8",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 272, 267, 265, 269. Số nào chia hết cho 5?",
+        "answer": "265",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_8",
+        "type": "Phân số",
+        "question": "Tính: 11/14 + 1/14",
+        "answer": "6/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_8",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 24cm và 30cm.",
+        "answer": "360 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_9",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 20, 64 và 126.",
+        "answer": "70",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_9",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 450, hiệu của hai số là 14. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 232, Số bé: 218",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_9",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 97, 102, 95, 97. Số nào chia hết cho 5?",
+        "answer": "95",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_9",
+        "type": "Phân số",
+        "question": "Tính: 6/9 + 2/9",
+        "answer": "8/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_9",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 35cm và chiều cao là 23cm.",
+        "answer": "805 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_10",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 27, 25 và 143.",
+        "answer": "65",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_10",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 336, hiệu của hai số là 242. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 289, Số bé: 47",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_10",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 490, 486, 490, 488. Số nào chia hết cho 9?",
+        "answer": "486",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_10",
+        "type": "Phân số",
+        "question": "Tính: 13/14 - 11/14",
+        "answer": "1/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_10",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 30cm và 11cm.",
+        "answer": "165 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_11",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 45, 62 và 109.",
+        "answer": "72",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_11",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 333, hiệu của hai số là 181. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 257, Số bé: 76",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_11",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 126, 130, 130, 130. Số nào chia hết cho 3?",
+        "answer": "126",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_11",
+        "type": "Phân số",
+        "question": "Tính: 10/11 - 7/11",
+        "answer": "3/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_11",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 15cm và 37cm.",
+        "answer": "277 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_12",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 30, 63 và 183.",
+        "answer": "92",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_12",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 580, hiệu của hai số là 16. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 298, Số bé: 282",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_12",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 133, 130, 130, 126. Số nào chia hết cho 3?",
+        "answer": "126",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_12",
+        "type": "Phân số",
+        "question": "Tính: 1/3 + 1/3",
+        "answer": "2/3",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_12",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 29cm và chiều cao là 23cm.",
+        "answer": "667 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_13",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 33, 18 và 63.",
+        "answer": "38",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_13",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 263, hiệu của hai số là 235. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 249, Số bé: 14",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_13",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 465, 466, 469, 472. Số nào chia hết cho 5?",
+        "answer": "465",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_13",
+        "type": "Phân số",
+        "question": "Tính: 6/9 + 5/9",
+        "answer": "11/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_13",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 39cm và 33cm.",
+        "answer": "643 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_14",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 65, 10 và 177.",
+        "answer": "84",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_14",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 449, hiệu của hai số là 109. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 279, Số bé: 170",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_14",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 205, 200, 198, 202. Số nào chia hết cho 2?",
+        "answer": "198",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_14",
+        "type": "Phân số",
+        "question": "Tính: 7/8 + 5/8",
+        "answer": "3/2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_14",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 20cm và 27cm.",
+        "answer": "270 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_15",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 20, 15 và 49.",
+        "answer": "28",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_15",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 316, hiệu của hai số là 82. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 199, Số bé: 117",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_15",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 64, 63, 69, 62. Số nào chia hết cho 2?",
+        "answer": "62",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_15",
+        "type": "Phân số",
+        "question": "Tính: 3/4 + 3/4",
+        "answer": "3/2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_15",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 17cm và 21cm.",
+        "answer": "178 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_16",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 25, 51 và 158.",
+        "answer": "78",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_16",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 348, hiệu của hai số là 70. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 209, Số bé: 139",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_16",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 379, 375, 376, 382. Số nào chia hết cho 5?",
+        "answer": "375",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_16",
+        "type": "Phân số",
+        "question": "Tính: 7/9 - 5/9",
+        "answer": "2/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_16",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 21cm và 36cm.",
+        "answer": "378 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_17",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 18, 12 và 36.",
+        "answer": "22",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_17",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 343, hiệu của hai số là 69. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 206, Số bé: 137",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_17",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 142, 137, 135, 139. Số nào chia hết cho 5?",
+        "answer": "135",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_17",
+        "type": "Phân số",
+        "question": "Tính: 9/13 - 2/13",
+        "answer": "7/13",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_17",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 23cm và 33cm.",
+        "answer": "379 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_18",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 22, 94 và 127.",
+        "answer": "81",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_18",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 265, hiệu của hai số là 93. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 179, Số bé: 86",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_18",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 375, 379, 376, 382. Số nào chia hết cho 5?",
+        "answer": "375",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_18",
+        "type": "Phân số",
+        "question": "Tính: 4/8 - 1/8",
+        "answer": "3/8",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_18",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 28cm và chiều cao là 5cm.",
+        "answer": "140 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_19",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 18, 27 và 195.",
+        "answer": "80",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_19",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 331, hiệu của hai số là 199. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 265, Số bé: 66",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_19",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 148, 146, 144, 146. Số nào chia hết cho 3?",
+        "answer": "144",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_19",
+        "type": "Phân số",
+        "question": "Tính: 1/3 + 2/3",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_19",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 29cm và chiều cao là 11cm.",
+        "answer": "319 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_20",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 40, 21 và 71.",
+        "answer": "44",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_20",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 230, hiệu của hai số là 30. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 130, Số bé: 100",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_20",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 289, 295, 289, 288. Số nào chia hết cho 3?",
+        "answer": "288",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_20",
+        "type": "Phân số",
+        "question": "Tính: 4/6 - 2/6",
+        "answer": "1/3",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_20",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 16cm và chiều cao là 29cm.",
+        "answer": "464 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_21",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 72, 64 và 134.",
+        "answer": "90",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_21",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 92, hiệu của hai số là 24. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 58, Số bé: 34",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_21",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 199, 202, 205, 198. Số nào chia hết cho 2?",
+        "answer": "198",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_21",
+        "type": "Phân số",
+        "question": "Tính: 1/10 + 3/10",
+        "answer": "2/5",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_21",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 48cm và chiều cao là 23cm.",
+        "answer": "1104 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_22",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 45, 91 và 116.",
+        "answer": "84",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_22",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 288, hiệu của hai số là 132. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 210, Số bé: 78",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_22",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 82, 82, 80, 81. Số nào chia hết cho 5?",
+        "answer": "80",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_22",
+        "type": "Phân số",
+        "question": "Tính: 7/9 - 3/9",
+        "answer": "4/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_22",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 22cm và chiều cao là 28cm.",
+        "answer": "616 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_23",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 27, 11 và 61.",
+        "answer": "33",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_23",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 151, hiệu của hai số là 125. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 138, Số bé: 13",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_23",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 328, 326, 324, 325. Số nào chia hết cho 9?",
+        "answer": "324",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_23",
+        "type": "Phân số",
+        "question": "Tính: 7/11 - 4/11",
+        "answer": "3/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_23",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 20cm và chiều cao là 23cm.",
+        "answer": "460 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_24",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 43, 31 và 64.",
+        "answer": "46",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_24",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 378, hiệu của hai số là 190. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 284, Số bé: 94",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_24",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 401, 400, 404, 404. Số nào chia hết cho 5?",
+        "answer": "400",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_24",
+        "type": "Phân số",
+        "question": "Tính: 13/15 - 8/15",
+        "answer": "1/3",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_24",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 31cm và chiều cao là 19cm.",
+        "answer": "589 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_25",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 14, 87 và 181.",
+        "answer": "94",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_25",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 394, hiệu của hai số là 172. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 283, Số bé: 111",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_25",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 189, 190, 193, 193. Số nào chia hết cho 3?",
+        "answer": "189",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_25",
+        "type": "Phân số",
+        "question": "Tính: 11/15 - 2/15",
+        "answer": "3/5",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_25",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 28cm và chiều cao là 29cm.",
+        "answer": "812 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_26",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 35, 18 và 52.",
+        "answer": "35",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_26",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 390, hiệu của hai số là 36. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 213, Số bé: 177",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_26",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 468, 469, 472, 469. Số nào chia hết cho 9?",
+        "answer": "468",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_26",
+        "type": "Phân số",
+        "question": "Tính: 2/6 - 1/6",
+        "answer": "1/6",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_26",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 23cm và 33cm.",
+        "answer": "379 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_27",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 12, 27 và 27.",
+        "answer": "22",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_27",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 93, hiệu của hai số là 29. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 61, Số bé: 32",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_27",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 133, 133, 132, 133. Số nào chia hết cho 3?",
+        "answer": "132",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_27",
+        "type": "Phân số",
+        "question": "Tính: 4/9 + 5/9",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_27",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 14cm và chiều cao là 8cm.",
+        "answer": "112 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_28",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 21, 30 và 36.",
+        "answer": "29",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_28",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 155, hiệu của hai số là 73. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 114, Số bé: 41",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_28",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 85, 82, 82, 78. Số nào chia hết cho 3?",
+        "answer": "78",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_28",
+        "type": "Phân số",
+        "question": "Tính: 5/6 - 1/6",
+        "answer": "2/3",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_28",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 19cm và 10cm.",
+        "answer": "95 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_29",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 24, 31 và 35.",
+        "answer": "30",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_29",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 350, hiệu của hai số là 156. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 253, Số bé: 97",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_29",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 212, 205, 209, 212. Số nào chia hết cho 5?",
+        "answer": "205",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_29",
+        "type": "Phân số",
+        "question": "Tính: 4/9 - 3/9",
+        "answer": "1/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_29",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 32cm và chiều cao là 11cm.",
+        "answer": "352 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_30",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 59, 38 và 86.",
+        "answer": "61",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_30",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 248, hiệu của hai số là 112. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 180, Số bé: 68",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_30",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 164, 171, 168, 168. Số nào chia hết cho 2?",
+        "answer": "164",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_30",
+        "type": "Phân số",
+        "question": "Tính: 1/4 + 2/4",
+        "answer": "3/4",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_30",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 29cm và chiều cao là 26cm.",
+        "answer": "754 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_31",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 34, 42 và 143.",
+        "answer": "73",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_31",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 406, hiệu của hai số là 122. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 264, Số bé: 142",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_31",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 246, 247, 250, 250. Số nào chia hết cho 3?",
+        "answer": "246",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_31",
+        "type": "Phân số",
+        "question": "Tính: 3/12 + 1/12",
+        "answer": "1/3",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_31",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 32cm và chiều cao là 16cm.",
+        "answer": "512 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_32",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 98, 60 và 142.",
+        "answer": "100",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_32",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 344, hiệu của hai số là 58. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 201, Số bé: 143",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_32",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 172, 170, 172, 168. Số nào chia hết cho 3?",
+        "answer": "168",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_32",
+        "type": "Phân số",
+        "question": "Tính: 8/9 - 7/9",
+        "answer": "1/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_32",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 33cm và chiều cao là 16cm.",
+        "answer": "528 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_33",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 19, 17 và 27.",
+        "answer": "21",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_33",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 429, hiệu của hai số là 39. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 234, Số bé: 195",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_33",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 72, 79, 79, 79. Số nào chia hết cho 3?",
+        "answer": "72",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_33",
+        "type": "Phân số",
+        "question": "Tính: 5/8 - 3/8",
+        "answer": "1/4",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_33",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 39cm và chiều cao là 5cm.",
+        "answer": "195 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_34",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 10, 28 và 40.",
+        "answer": "26",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_34",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 353, hiệu của hai số là 43. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 198, Số bé: 155",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_34",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 113, 112, 119, 119. Số nào chia hết cho 2?",
+        "answer": "112",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_34",
+        "type": "Phân số",
+        "question": "Tính: 4/7 - 1/7",
+        "answer": "3/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_34",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 34cm và 28cm.",
+        "answer": "476 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_35",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 75, 23 và 169.",
+        "answer": "89",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_35",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 150, hiệu của hai số là 94. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 122, Số bé: 28",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_35",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 178, 178, 171, 173. Số nào chia hết cho 9?",
+        "answer": "171",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_35",
+        "type": "Phân số",
+        "question": "Tính: 1/3 + 2/3",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_35",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 19cm và chiều cao là 25cm.",
+        "answer": "475 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_36",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 34, 18 và 65.",
+        "answer": "39",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_36",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 140, hiệu của hai số là 78. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 109, Số bé: 31",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_36",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 261, 268, 263, 262. Số nào chia hết cho 3?",
+        "answer": "261",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_36",
+        "type": "Phân số",
+        "question": "Tính: 3/9 - 1/9",
+        "answer": "2/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_36",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 14cm và chiều cao là 14cm.",
+        "answer": "196 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_37",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 40, 28 và 67.",
+        "answer": "45",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_37",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 221, hiệu của hai số là 149. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 185, Số bé: 36",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_37",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 362, 362, 362, 355. Số nào chia hết cho 5?",
+        "answer": "355",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_37",
+        "type": "Phân số",
+        "question": "Tính: 5/7 + 6/7",
+        "answer": "11/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_37",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 20cm và chiều cao là 22cm.",
+        "answer": "440 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_38",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 17, 56 và 179.",
+        "answer": "84",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_38",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 197, hiệu của hai số là 49. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 123, Số bé: 74",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_38",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 23, 29, 22, 23. Số nào chia hết cho 2?",
+        "answer": "22",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_38",
+        "type": "Phân số",
+        "question": "Tính: 3/4 - 1/4",
+        "answer": "1/2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_38",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 13cm và chiều cao là 6cm.",
+        "answer": "78 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_39",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 33, 40 và 95.",
+        "answer": "56",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_39",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 150, hiệu của hai số là 56. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 103, Số bé: 47",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_39",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 270, 272, 271, 277. Số nào chia hết cho 3?",
+        "answer": "270",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_39",
+        "type": "Phân số",
+        "question": "Tính: 3/8 - 2/8",
+        "answer": "1/8",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_39",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 14cm và 31cm.",
+        "answer": "217 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_40",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 18, 17 và 127.",
+        "answer": "54",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_40",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 487, hiệu của hai số là 39. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 263, Số bé: 224",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_40",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 769, 769, 766, 765. Số nào chia hết cho 9?",
+        "answer": "765",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_40",
+        "type": "Phân số",
+        "question": "Tính: 11/14 - 1/14",
+        "answer": "5/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_40",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 10cm và 20cm.",
+        "answer": "100 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_41",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 32, 28 và 72.",
+        "answer": "44",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_41",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 258, hiệu của hai số là 126. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 192, Số bé: 66",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_41",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 128, 126, 133, 133. Số nào chia hết cho 3?",
+        "answer": "126",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_41",
+        "type": "Phân số",
+        "question": "Tính: 6/10 - 2/10",
+        "answer": "2/5",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_41",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 28cm và 12cm.",
+        "answer": "168 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_42",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 20, 10 và 33.",
+        "answer": "21",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_42",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 330, hiệu của hai số là 238. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 284, Số bé: 46",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_42",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 47, 45, 52, 49. Số nào chia hết cho 3?",
+        "answer": "45",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_42",
+        "type": "Phân số",
+        "question": "Tính: 12/15 + 5/15",
+        "answer": "17/15",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_42",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 32cm và 20cm.",
+        "answer": "320 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_43",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 16, 35 và 27.",
+        "answer": "26",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_43",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 295, hiệu của hai số là 215. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 255, Số bé: 40",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_43",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 151, 157, 154, 150. Số nào chia hết cho 5?",
+        "answer": "150",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_43",
+        "type": "Phân số",
+        "question": "Tính: 1/6 + 4/6",
+        "answer": "5/6",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_43",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 25cm và 31cm.",
+        "answer": "387 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_44",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 57, 32 và 100.",
+        "answer": "63",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_44",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 258, hiệu của hai số là 108. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 183, Số bé: 75",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_44",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 104, 100, 104, 101. Số nào chia hết cho 5?",
+        "answer": "100",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_44",
+        "type": "Phân số",
+        "question": "Tính: 8/9 - 1/9",
+        "answer": "7/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_44",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 32cm và chiều cao là 14cm.",
+        "answer": "448 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_45",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 71, 42 và 115.",
+        "answer": "76",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_45",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 389, hiệu của hai số là 105. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 247, Số bé: 142",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_45",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 227, 232, 225, 229. Số nào chia hết cho 3?",
+        "answer": "225",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_45",
+        "type": "Phân số",
+        "question": "Tính: 5/12 - 2/12",
+        "answer": "1/4",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_45",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 23cm và 11cm.",
+        "answer": "126 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_46",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 74, 10 và 189.",
+        "answer": "91",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_46",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 402, hiệu của hai số là 194. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 298, Số bé: 104",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_46",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 515, 513, 517, 514. Số nào chia hết cho 9?",
+        "answer": "513",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_46",
+        "type": "Phân số",
+        "question": "Tính: 3/8 + 5/8",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_46",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 38cm và 39cm.",
+        "answer": "741 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_47",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 29, 89 và 149.",
+        "answer": "89",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_47",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 139, hiệu của hai số là 17. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 78, Số bé: 61",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_47",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 27, 22, 24, 20. Số nào chia hết cho 2?",
+        "answer": "20",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_47",
+        "type": "Phân số",
+        "question": "Tính: 7/15 + 5/15",
+        "answer": "4/5",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_47",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 15cm và chiều cao là 9cm.",
+        "answer": "135 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_48",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 13, 31 và 151.",
+        "answer": "65",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_48",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 458, hiệu của hai số là 52. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 255, Số bé: 203",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_48",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 412, 405, 406, 409. Số nào chia hết cho 5?",
+        "answer": "405",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_48",
+        "type": "Phân số",
+        "question": "Tính: 2/14 - 1/14",
+        "answer": "1/14",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_48",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 13cm và 30cm.",
+        "answer": "195 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_49",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 28, 40 và 103.",
+        "answer": "57",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_49",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 199, hiệu của hai số là 81. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 140, Số bé: 59",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_49",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 168, 175, 175, 170. Số nào chia hết cho 3?",
+        "answer": "168",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_49",
+        "type": "Phân số",
+        "question": "Tính: 6/7 + 2/7",
+        "answer": "8/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_49",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 20cm và 35cm.",
+        "answer": "350 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_50",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 41, 95 và 161.",
+        "answer": "99",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_50",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 155, hiệu của hai số là 25. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 90, Số bé: 65",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_50",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 160, 156, 160, 157. Số nào chia hết cho 3?",
+        "answer": "156",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_50",
+        "type": "Phân số",
+        "question": "Tính: 11/12 - 10/12",
+        "answer": "1/12",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_50",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 22cm và 40cm.",
+        "answer": "440 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_51",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 18, 18 và 27.",
+        "answer": "21",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_51",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 120, hiệu của hai số là 12. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 66, Số bé: 54",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_51",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 211, 217, 217, 210. Số nào chia hết cho 3?",
+        "answer": "210",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_51",
+        "type": "Phân số",
+        "question": "Tính: 1/5 + 4/5",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_51",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 32cm và chiều cao là 11cm.",
+        "answer": "352 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_52",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 29, 20 và 155.",
+        "answer": "68",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_52",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 346, hiệu của hai số là 188. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 267, Số bé: 79",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_52",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 160, 153, 155, 154. Số nào chia hết cho 9?",
+        "answer": "153",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_52",
+        "type": "Phân số",
+        "question": "Tính: 2/4 - 1/4",
+        "answer": "1/4",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_52",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 34cm và 30cm.",
+        "answer": "510 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_53",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 15, 123 và 105.",
+        "answer": "81",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_53",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 273, hiệu của hai số là 161. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 217, Số bé: 56",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_53",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 140, 138, 142, 145. Số nào chia hết cho 3?",
+        "answer": "138",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_53",
+        "type": "Phân số",
+        "question": "Tính: 4/5 + 1/5",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_53",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 21cm và 35cm.",
+        "answer": "367 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_54",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 75, 38 và 121.",
+        "answer": "78",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_54",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 350, hiệu của hai số là 154. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 252, Số bé: 98",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_54",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 139, 138, 145, 139. Số nào chia hết cho 3?",
+        "answer": "138",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_54",
+        "type": "Phân số",
+        "question": "Tính: 6/10 - 3/10",
+        "answer": "3/10",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_54",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 15cm và chiều cao là 8cm.",
+        "answer": "120 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_55",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 74, 10 và 153.",
+        "answer": "79",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_55",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 88, hiệu của hai số là 22. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 55, Số bé: 33",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_55",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 190, 197, 192, 197. Số nào chia hết cho 2?",
+        "answer": "190",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_55",
+        "type": "Phân số",
+        "question": "Tính: 2/6 + 2/6",
+        "answer": "2/3",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_55",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 40cm và 21cm.",
+        "answer": "420 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_56",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 35, 157 và 102.",
+        "answer": "98",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_56",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 117, hiệu của hai số là 65. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 91, Số bé: 26",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_56",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 436, 442, 439, 435. Số nào chia hết cho 5?",
+        "answer": "435",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_56",
+        "type": "Phân số",
+        "question": "Tính: 13/14 - 4/14",
+        "answer": "9/14",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_56",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 19cm và 18cm.",
+        "answer": "171 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_57",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 34, 33 và 203.",
+        "answer": "90",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_57",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 440, hiệu của hai số là 74. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 257, Số bé: 183",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_57",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 362, 362, 362, 360. Số nào chia hết cho 5?",
+        "answer": "360",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_57",
+        "type": "Phân số",
+        "question": "Tính: 11/13 - 7/13",
+        "answer": "4/13",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_57",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 11cm và chiều cao là 15cm.",
+        "answer": "165 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_58",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 24, 37 và 38.",
+        "answer": "33",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_58",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 287, hiệu của hai số là 217. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 252, Số bé: 35",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_58",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 263, 261, 263, 265. Số nào chia hết cho 9?",
+        "answer": "261",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_58",
+        "type": "Phân số",
+        "question": "Tính: 14/15 + 8/15",
+        "answer": "22/15",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_58",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 45cm và chiều cao là 18cm.",
+        "answer": "810 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_59",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 39, 28 và 77.",
+        "answer": "48",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_59",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 92, hiệu của hai số là 44. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 68, Số bé: 24",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_59",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 271, 274, 272, 270. Số nào chia hết cho 3?",
+        "answer": "270",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_59",
+        "type": "Phân số",
+        "question": "Tính: 5/8 + 5/8",
+        "answer": "5/4",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_59",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 38cm và chiều cao là 7cm.",
+        "answer": "266 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_60",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 21, 20 và 76.",
+        "answer": "39",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_60",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 82, hiệu của hai số là 32. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 57, Số bé: 25",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_60",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 257, 259, 255, 262. Số nào chia hết cho 3?",
+        "answer": "255",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_60",
+        "type": "Phân số",
+        "question": "Tính: 5/7 - 4/7",
+        "answer": "1/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_60",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 36cm và chiều cao là 14cm.",
+        "answer": "504 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_61",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 52, 133 và 112.",
+        "answer": "99",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_61",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 504, hiệu của hai số là 40. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 272, Số bé: 232",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_61",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 85, 86, 84, 91. Số nào chia hết cho 2?",
+        "answer": "84",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_61",
+        "type": "Phân số",
+        "question": "Tính: 2/6 - 1/6",
+        "answer": "1/6",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_61",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 15cm và 19cm.",
+        "answer": "142 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_62",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 15, 116 và 169.",
+        "answer": "100",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_62",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 403, hiệu của hai số là 65. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 234, Số bé: 169",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_62",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 148, 153, 146, 148. Số nào chia hết cho 2?",
+        "answer": "146",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_62",
+        "type": "Phân số",
+        "question": "Tính: 6/8 + 1/8",
+        "answer": "7/8",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_62",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 32cm và 32cm.",
+        "answer": "512 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_63",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 46, 27 và 122.",
+        "answer": "65",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_63",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 340, hiệu của hai số là 26. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 183, Số bé: 157",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_63",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 177, 179, 178, 179. Số nào chia hết cho 3?",
+        "answer": "177",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_63",
+        "type": "Phân số",
+        "question": "Tính: 5/6 - 5/6",
+        "answer": "0",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_63",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 28cm và chiều cao là 8cm.",
+        "answer": "224 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_64",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 37, 82 và 82.",
+        "answer": "67",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_64",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 205, hiệu của hai số là 83. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 144, Số bé: 61",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_64",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 56, 57, 55, 59. Số nào chia hết cho 5?",
+        "answer": "55",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_64",
+        "type": "Phân số",
+        "question": "Tính: 2/6 + 4/6",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_64",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 38cm và 21cm.",
+        "answer": "399 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_65",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 41, 38 và 185.",
+        "answer": "88",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_65",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 361, hiệu của hai số là 55. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 208, Số bé: 153",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_65",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 130, 131, 132, 132. Số nào chia hết cho 5?",
+        "answer": "130",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_65",
+        "type": "Phân số",
+        "question": "Tính: 3/4 - 1/4",
+        "answer": "1/2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_65",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 45cm và chiều cao là 14cm.",
+        "answer": "630 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_66",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 14, 16 và 30.",
+        "answer": "20",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_66",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 417, hiệu của hai số là 97. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 257, Số bé: 160",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_66",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 340, 344, 344, 341. Số nào chia hết cho 5?",
+        "answer": "340",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_66",
+        "type": "Phân số",
+        "question": "Tính: 2/5 - 1/5",
+        "answer": "1/5",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_66",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 11cm và 14cm.",
+        "answer": "77 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_67",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 87, 20 và 187.",
+        "answer": "98",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_67",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 192, hiệu của hai số là 40. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 116, Số bé: 76",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_67",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 155, 157, 153, 154. Số nào chia hết cho 3?",
+        "answer": "153",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_67",
+        "type": "Phân số",
+        "question": "Tính: 3/4 - 3/4",
+        "answer": "0",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_67",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 36cm và 40cm.",
+        "answer": "720 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_68",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 33, 60 và 111.",
+        "answer": "68",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_68",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 182, hiệu của hai số là 64. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 123, Số bé: 59",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_68",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 417, 410, 411, 414. Số nào chia hết cho 5?",
+        "answer": "410",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_68",
+        "type": "Phân số",
+        "question": "Tính: 2/3 + 1/3",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_68",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 29cm và 32cm.",
+        "answer": "464 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_69",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 38, 44 và 71.",
+        "answer": "51",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_69",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 217, hiệu của hai số là 81. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 149, Số bé: 68",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_69",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 168, 171, 171, 164. Số nào chia hết cho 2?",
+        "answer": "164",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_69",
+        "type": "Phân số",
+        "question": "Tính: 10/11 + 10/11",
+        "answer": "20/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_69",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 13cm và 28cm.",
+        "answer": "182 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_70",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 26, 16 và 99.",
+        "answer": "47",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_70",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 257, hiệu của hai số là 85. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 171, Số bé: 86",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_70",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 294, 292, 290, 292. Số nào chia hết cho 5?",
+        "answer": "290",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_70",
+        "type": "Phân số",
+        "question": "Tính: 1/10 + 4/10",
+        "answer": "1/2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_70",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 26cm và chiều cao là 17cm.",
+        "answer": "442 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_71",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 45, 20 và 79.",
+        "answer": "48",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_71",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 326, hiệu của hai số là 70. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 198, Số bé: 128",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_71",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 94, 92, 93, 93. Số nào chia hết cho 2?",
+        "answer": "92",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_71",
+        "type": "Phân số",
+        "question": "Tính: 5/12 + 8/12",
+        "answer": "13/12",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_71",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 37cm và chiều cao là 8cm.",
+        "answer": "296 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_72",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 48, 38 và 106.",
+        "answer": "64",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_72",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 246, hiệu của hai số là 50. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 148, Số bé: 98",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_72",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 197, 197, 197, 195. Số nào chia hết cho 5?",
+        "answer": "195",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_72",
+        "type": "Phân số",
+        "question": "Tính: 5/12 + 7/12",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_72",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 35cm và 26cm.",
+        "answer": "455 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_73",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 19, 42 và 32.",
+        "answer": "31",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_73",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 279, hiệu của hai số là 181. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 230, Số bé: 49",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_73",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 302, 300, 304, 302. Số nào chia hết cho 3?",
+        "answer": "300",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_73",
+        "type": "Phân số",
+        "question": "Tính: 7/8 - 2/8",
+        "answer": "5/8",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_73",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 23cm và 21cm.",
+        "answer": "241 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_74",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 66, 115 và 110.",
+        "answer": "97",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_74",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 338, hiệu của hai số là 192. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 265, Số bé: 73",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_74",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 756, 758, 763, 760. Số nào chia hết cho 9?",
+        "answer": "756",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_74",
+        "type": "Phân số",
+        "question": "Tính: 10/11 + 1/11",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_74",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 19cm và chiều cao là 9cm.",
+        "answer": "171 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_75",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 48, 79 và 95.",
+        "answer": "74",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_75",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 156, hiệu của hai số là 74. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 115, Số bé: 41",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_75",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 267, 268, 269, 274. Số nào chia hết cho 3?",
+        "answer": "267",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_75",
+        "type": "Phân số",
+        "question": "Tính: 5/13 + 7/13",
+        "answer": "12/13",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_75",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 23cm và 15cm.",
+        "answer": "172 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_76",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 48, 19 và 125.",
+        "answer": "64",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_76",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 314, hiệu của hai số là 56. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 185, Số bé: 129",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_76",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 385, 386, 389, 389. Số nào chia hết cho 5?",
+        "answer": "385",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_76",
+        "type": "Phân số",
+        "question": "Tính: 7/15 + 3/15",
+        "answer": "2/3",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_76",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 29cm và 33cm.",
+        "answer": "478 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_77",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 20, 38 và 164.",
+        "answer": "74",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_77",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 138, hiệu của hai số là 62. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 100, Số bé: 38",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_77",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 155, 161, 161, 154. Số nào chia hết cho 2?",
+        "answer": "154",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_77",
+        "type": "Phân số",
+        "question": "Tính: 10/11 - 1/11",
+        "answer": "9/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_77",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 26cm và chiều cao là 5cm.",
+        "answer": "130 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_78",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 62, 68 và 80.",
+        "answer": "70",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_78",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 436, hiệu của hai số là 136. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 286, Số bé: 150",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_78",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 277, 270, 277, 271. Số nào chia hết cho 5?",
+        "answer": "270",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_78",
+        "type": "Phân số",
+        "question": "Tính: 3/10 - 3/10",
+        "answer": "0",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_78",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 11cm và chiều cao là 24cm.",
+        "answer": "264 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_79",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 26, 15 và 172.",
+        "answer": "71",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_79",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 101, hiệu của hai số là 41. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 71, Số bé: 30",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_79",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 648, 655, 649, 650. Số nào chia hết cho 9?",
+        "answer": "648",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_79",
+        "type": "Phân số",
+        "question": "Tính: 10/15 - 2/15",
+        "answer": "8/15",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_79",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 23cm và 22cm.",
+        "answer": "253 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_80",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 47, 16 và 93.",
+        "answer": "52",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_80",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 280, hiệu của hai số là 16. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 148, Số bé: 132",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_80",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 91, 91, 90, 97. Số nào chia hết cho 2?",
+        "answer": "90",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_80",
+        "type": "Phân số",
+        "question": "Tính: 4/14 + 11/14",
+        "answer": "15/14",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_80",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 30cm và chiều cao là 13cm.",
+        "answer": "390 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_81",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 63, 32 và 145.",
+        "answer": "80",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_81",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 126, hiệu của hai số là 28. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 77, Số bé: 49",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_81",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 194, 192, 199, 194. Số nào chia hết cho 2?",
+        "answer": "192",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_81",
+        "type": "Phân số",
+        "question": "Tính: 3/11 + 9/11",
+        "answer": "12/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_81",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 36cm và 30cm.",
+        "answer": "540 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_82",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 29, 72 và 121.",
+        "answer": "74",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_82",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 419, hiệu của hai số là 139. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 279, Số bé: 140",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_82",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 37, 37, 33, 37. Số nào chia hết cho 3?",
+        "answer": "33",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_82",
+        "type": "Phân số",
+        "question": "Tính: 7/9 - 6/9",
+        "answer": "1/9",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_82",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 36cm và chiều cao là 5cm.",
+        "answer": "180 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_83",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 27, 25 và 32.",
+        "answer": "28",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_83",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 202, hiệu của hai số là 58. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 130, Số bé: 72",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_83",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 112, 108, 115, 112. Số nào chia hết cho 9?",
+        "answer": "108",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_83",
+        "type": "Phân số",
+        "question": "Tính: 3/4 - 3/4",
+        "answer": "0",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_83",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 19cm và chiều cao là 6cm.",
+        "answer": "114 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_84",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 41, 98 và 83.",
+        "answer": "74",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_84",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 247, hiệu của hai số là 69. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 158, Số bé: 89",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_84",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 596, 595, 594, 596. Số nào chia hết cho 9?",
+        "answer": "594",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_84",
+        "type": "Phân số",
+        "question": "Tính: 9/14 + 9/14",
+        "answer": "9/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_84",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 21cm và 24cm.",
+        "answer": "252 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_85",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 10, 26 và 222.",
+        "answer": "86",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_85",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 263, hiệu của hai số là 111. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 187, Số bé: 76",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_85",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 110, 111, 114, 114. Số nào chia hết cho 2?",
+        "answer": "110",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_85",
+        "type": "Phân số",
+        "question": "Tính: 12/13 + 3/13",
+        "answer": "15/13",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_85",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 48cm và chiều cao là 15cm.",
+        "answer": "720 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_86",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 89, 40 và 156.",
+        "answer": "95",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_86",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 186, hiệu của hai số là 70. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 128, Số bé: 58",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_86",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 129, 129, 122, 123. Số nào chia hết cho 2?",
+        "answer": "122",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_86",
+        "type": "Phân số",
+        "question": "Tính: 13/14 + 12/14",
+        "answer": "25/14",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_86",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 27cm và chiều cao là 27cm.",
+        "answer": "729 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_87",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 24, 15 và 60.",
+        "answer": "33",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_87",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 195, hiệu của hai số là 57. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 126, Số bé: 69",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_87",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 105, 112, 106, 112. Số nào chia hết cho 3?",
+        "answer": "105",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_87",
+        "type": "Phân số",
+        "question": "Tính: 11/12 + 10/12",
+        "answer": "7/4",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_87",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 19cm và 18cm.",
+        "answer": "171 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_88",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 26, 33 và 64.",
+        "answer": "41",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_88",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 245, hiệu của hai số là 79. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 162, Số bé: 83",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_88",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 232, 230, 231, 232. Số nào chia hết cho 5?",
+        "answer": "230",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_88",
+        "type": "Phân số",
+        "question": "Tính: 9/13 + 10/13",
+        "answer": "19/13",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_88",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 16cm và 10cm.",
+        "answer": "80 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_89",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 13, 12 và 56.",
+        "answer": "27",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_89",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 232, hiệu của hai số là 112. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 172, Số bé: 60",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_89",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 124, 120, 122, 124. Số nào chia hết cho 2?",
+        "answer": "120",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_89",
+        "type": "Phân số",
+        "question": "Tính: 5/6 + 1/6",
+        "answer": "1",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_89",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 29cm và 30cm.",
+        "answer": "435 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_90",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 21, 25 và 47.",
+        "answer": "31",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_90",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 477, hiệu của hai số là 13. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 245, Số bé: 232",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_90",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 127, 126, 130, 127. Số nào chia hết cho 3?",
+        "answer": "126",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_90",
+        "type": "Phân số",
+        "question": "Tính: 10/13 - 5/13",
+        "answer": "5/13",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_90",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 30cm và 37cm.",
+        "answer": "555 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_91",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 24, 18 và 57.",
+        "answer": "33",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_91",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 243, hiệu của hai số là 179. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 211, Số bé: 32",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_91",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 585, 587, 592, 589. Số nào chia hết cho 9?",
+        "answer": "585",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_91",
+        "type": "Phân số",
+        "question": "Tính: 8/11 - 1/11",
+        "answer": "7/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_91",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 37cm và chiều cao là 14cm.",
+        "answer": "518 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_92",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 32, 53 và 53.",
+        "answer": "46",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_92",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 144, hiệu của hai số là 54. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 99, Số bé: 45",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_92",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 33, 34, 32, 34. Số nào chia hết cho 2?",
+        "answer": "32",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_92",
+        "type": "Phân số",
+        "question": "Tính: 4/9 + 2/9",
+        "answer": "2/3",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_92",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 22cm và chiều cao là 13cm.",
+        "answer": "286 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_93",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 35, 34 và 42.",
+        "answer": "37",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_93",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 147, hiệu của hai số là 87. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 117, Số bé: 30",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_93",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 110, 111, 117, 114. Số nào chia hết cho 2?",
+        "answer": "110",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_93",
+        "type": "Phân số",
+        "question": "Tính: 11/14 + 7/14",
+        "answer": "9/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_93",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 50cm và chiều cao là 9cm.",
+        "answer": "450 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_94",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 58, 78 và 71.",
+        "answer": "69",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_94",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 451, hiệu của hai số là 59. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 255, Số bé: 196",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_94",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 147, 149, 151, 148. Số nào chia hết cho 3?",
+        "answer": "147",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_94",
+        "type": "Phân số",
+        "question": "Tính: 7/8 + 3/8",
+        "answer": "5/4",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_94",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 33cm và 10cm.",
+        "answer": "165 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_95",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 44, 14 và 188.",
+        "answer": "82",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_95",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 242, hiệu của hai số là 40. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 141, Số bé: 101",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_95",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 55, 51, 58, 52. Số nào chia hết cho 3?",
+        "answer": "51",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_95",
+        "type": "Phân số",
+        "question": "Tính: 2/5 + 2/5",
+        "answer": "4/5",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_95",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 14cm và 32cm.",
+        "answer": "224 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_96",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 53, 56 và 116.",
+        "answer": "75",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_96",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 161, hiệu của hai số là 35. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 98, Số bé: 63",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_96",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 364, 367, 360, 367. Số nào chia hết cho 9?",
+        "answer": "360",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_96",
+        "type": "Phân số",
+        "question": "Tính: 2/11 - 1/11",
+        "answer": "1/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_96",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 37cm và 40cm.",
+        "answer": "740 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_97",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 11, 28 và 60.",
+        "answer": "33",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_97",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 301, hiệu của hai số là 161. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 231, Số bé: 70",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_97",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 190, 189, 190, 196. Số nào chia hết cho 3?",
+        "answer": "189",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_97",
+        "type": "Phân số",
+        "question": "Tính: 4/7 + 6/7",
+        "answer": "10/7",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_97",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 21cm và 34cm.",
+        "answer": "357 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_98",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 12, 53 và 37.",
+        "answer": "34",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_98",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 251, hiệu của hai số là 47. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 149, Số bé: 102",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_98",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 892, 895, 892, 891. Số nào chia hết cho 9?",
+        "answer": "891",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_98",
+        "type": "Phân số",
+        "question": "Tính: 1/4 + 2/4",
+        "answer": "3/4",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_98",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 41cm và chiều cao là 20cm.",
+        "answer": "820 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_99",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 14, 10 và 237.",
+        "answer": "87",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_99",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 398, hiệu của hai số là 62. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 230, Số bé: 168",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_99",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 330, 334, 337, 337. Số nào chia hết cho 5?",
+        "answer": "330",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_99",
+        "type": "Phân số",
+        "question": "Tính: 7/8 - 4/8",
+        "answer": "3/8",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_99",
+        "type": "Hình học",
+        "question": "Tính diện tích hình thoi có độ dài hai đường chéo lần lượt là 38cm và 33cm.",
+        "answer": "627 cm2",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TBC_100",
+        "type": "Trung bình cộng",
+        "question": "Tìm số trung bình cộng của 3 số: 40, 74 và 186.",
+        "answer": "100",
+        "level": "Mức 1"
+    },
+    {
+        "id": "TH_100",
+        "type": "Tổng và Hiệu",
+        "question": "Tổng của hai số là 305, hiệu của hai số là 285. Tìm số lớn và số bé.",
+        "answer": "Số lớn: 295, Số bé: 10",
+        "level": "Mức 1"
+    },
+    {
+        "id": "DHCH_100",
+        "type": "Dấu hiệu chia hết",
+        "question": "Trong các số: 544, 544, 542, 540. Số nào chia hết cho 9?",
+        "answer": "540",
+        "level": "Mức 1"
+    },
+    {
+        "id": "PS_100",
+        "type": "Phân số",
+        "question": "Tính: 10/11 + 10/11",
+        "answer": "20/11",
+        "level": "Mức 1"
+    },
+    {
+        "id": "HH_100",
+        "type": "Hình học",
+        "question": "Tính diện tích hình bình hành có độ dài đáy là 23cm và chiều cao là 18cm.",
+        "answer": "414 cm2",
+        "level": "Mức 1"
+    }
+]
