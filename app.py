@@ -11,6 +11,37 @@ from datetime import datetime
 API_URL = "https://script.google.com/macros/s/AKfycbxGaZ4QILSN8Es3VS0TN4NVfX0lQZCYHHjUyNXrNUxXMCat3hwOrx2tbLKH3qKJUbc/exec"
 
 # ==========================================
+# 1.5 DỮ LIỆU LÝ THUYẾT (Tích hợp sẵn)
+# ==========================================
+THEORY_DATA = {
+    "Trung bình cộng": {
+        "khai_niem": "Số trung bình cộng san đều giá trị của tất cả các số trong một nhóm.",
+        "phuong_phap": "Bước 1: Tính TỔNG các số.\nBước 2: Lấy TỔNG chia cho SỐ CÁC SỐ HẠNG.",
+        "sai_lam": "Quên đóng ngoặc khi tính tổng trước khi chia. Ví dụ sai: 4 + 6 : 2. Đúng phải là: (4 + 6) : 2."
+    },
+    "Tổng và Hiệu": {
+        "khai_niem": "Tìm hai số khi biết tổng cộng và sự chênh lệch (hiệu) của chúng.",
+        "phuong_phap": "Số Lớn = (Tổng + Hiệu) : 2\nSố Bé = (Tổng - Hiệu) : 2\n(Mẹo: Tìm được 1 số rồi, lấy Tổng trừ đi số đó sẽ ra số còn lại rất nhanh).",
+        "sai_lam": "Nhầm lẫn giữa Nửa chu vi và Chu vi hình chữ nhật (Chu vi phải chia 2 mới ra Tổng của chiều dài và chiều rộng)."
+    },
+    "Dấu hiệu chia hết": {
+        "khai_niem": "Nhận biết một số có chia hết cho 2, 3, 5, 9 hay không mà không cần đặt tính.",
+        "phuong_phap": "- Chia hết cho 2: Số tận cùng là 0, 2, 4, 6, 8.\n- Chia hết cho 5: Số tận cùng là 0 hoặc 5.\n- Chia hết cho 3 hoặc 9: Cộng tất cả các chữ số lại, nếu tổng chia hết cho 3 hoặc 9 thì số đó chia hết.",
+        "sai_lam": "Áp dụng sai quy tắc. Ví dụ: Lấy quy tắc của 2,5 (nhìn số cuối) để áp dụng cho 3,9 (phải tính tổng các chữ số)."
+    },
+    "Phân số": {
+        "khai_niem": "Biểu diễn phần bằng nhau của một đơn vị.",
+        "phuong_phap": "- Cộng/Trừ: Phải quy đồng đưa về cùng mẫu số rồi mới cộng/trừ tử số, giữ nguyên mẫu.\n- Nhân: Tử nhân tử, mẫu nhân mẫu.\n- Chia: Phân số thứ nhất NHÂN với phân số thứ hai ĐẢO NGƯỢC.",
+        "sai_lam": "Cộng/Trừ hai phân số mà lại lấy tử cộng tử, mẫu cộng mẫu (Ví dụ sai: 1/2 + 1/3 = 2/5)."
+    },
+    "Hình học": {
+        "khai_niem": "Tính diện tích các hình cơ bản lớp 4.",
+        "phuong_phap": "- Hình bình hành: S = Độ dài đáy x Chiều cao (S = a x h).\n- Hình thoi: S = (Đường chéo 1 x Đường chéo 2) : 2.",
+        "sai_lam": "Quên chia 2 khi tính diện tích hình thoi, hoặc các đơn vị đo độ dài chưa giống nhau đã vội nhân."
+    }
+}
+
+# ==========================================
 # 2. HỆ THỐNG ĐĂNG NHẬP
 # ==========================================
 st.set_page_config(page_title="App Ôn Tập Toán Lớp 4", page_icon="🧮", layout="wide")
@@ -39,7 +70,6 @@ if not st.session_state.logged_in:
     tab_login, tab_register = st.tabs(["🔑 Đăng nhập", "📝 Đăng ký mới"])
     
     with tab_login:
-        # Dùng Form để ấn Enter là đăng nhập
         with st.form("login_form"):
             user_input = st.text_input("Tên đăng nhập (Username):")
             pass_input = st.text_input("Mật khẩu:", type="password")
@@ -85,12 +115,12 @@ list_types = list(set([q["type"] for q in questions]))
 st.sidebar.title(f"👋 Chào mừng, {st.session_state.username}!")
 mode = st.sidebar.radio("Con muốn làm gì hôm nay?", ["📚 Học theo chuyên đề", "📝 Đề thi tổng hợp"])
 
-# Đẩy nút đăng xuất xuống dưới cùng và thêm đường kẻ để an toàn tuyệt đối
 st.sidebar.markdown("---")
 if st.sidebar.button("🚪 Đăng xuất"):
     st.session_state.logged_in = False
     st.rerun()
 
+# --- CHẾ ĐỘ 1: HỌC THEO CHUYÊN ĐỀ ---
 if mode == "📚 Học theo chuyên đề":
     st.title("📚 Luyện Tập Từng Chuyên Đề")
     selected_type = st.sidebar.selectbox("Chọn dạng toán:", list_types)
@@ -104,43 +134,55 @@ if mode == "📚 Học theo chuyên đề":
     filtered_questions = [q for q in questions if q["type"] == selected_type]
     total_questions = len(filtered_questions)
     
-    if total_questions > 0:
-        index = st.session_state.current_index
-        if index < total_questions:
-            q = filtered_questions[index]
-            st.write(f"**Tiến độ:** Câu {index + 1} / {total_questions} | 🏆 **Điểm: {st.session_state.score}**")
-            st.progress((index + 1) / total_questions)
-            
-            # NHỐT CÂU HỎI VÀO FORM ĐỂ FIX LỖI ENTER
-            with st.form(key=f"form_{q['id']}"):
-                st.info(f"**Câu hỏi:** {q['question']}")
-                user_ans = st.text_input("Nhập đáp án của con:")
-                btn_check = st.form_submit_button("Kiểm tra")
-                
-            if btn_check:
-                if user_ans.strip() == q["answer"].strip():
-                    st.success("🎉 Xuất sắc! Con làm đúng rồi!")
-                    if not st.session_state.answered:
-                        st.session_state.score += 1
-                        st.session_state.answered = True
-                else:
-                    st.error(f"❌ Sai rồi. Đáp án đúng: {q['answer']}")
-                    st.session_state.answered = True
-                    ghi_loi_sai(st.session_state.username, q["type"], q["question"])
-                    
-            # Nút chuyển câu để ngoài form
-            if st.button("Câu tiếp theo ➡️"):
-                st.session_state.current_index += 1
-                st.session_state.answered = False
-                st.rerun()
-        else:
-            st.success("🏆 HOÀN THÀNH CHUYÊN ĐỀ!")
-            st.write(f"🎯 Điểm tổng kết: {st.session_state.score} / {total_questions}")
-            if st.button("Lưu kết quả và Quay lại"):
-                ghi_nhat_ky_hoc_tap(st.session_state.username, f"Chuyên đề: {selected_type}", st.session_state.score, total_questions)
-                st.session_state.current_index = 0
-                st.rerun()
+    # Chia giao diện thành 2 phần: Lý thuyết và Luyện tập
+    tab_lt, tab_th = st.tabs(["📖 Đọc Lý Thuyết Trước", "✍️ Thực Hành Luyện Tập"])
+    
+    with tab_lt:
+        theory = THEORY_DATA.get(selected_type, {})
+        st.header(f"Bí kíp giải toán: {selected_type}")
+        st.info(f"**📌 Khái niệm:** {theory.get('khai_niem', 'Đang cập nhật...')}")
+        st.success(f"**💡 Phương pháp giải:**\n{theory.get('phuong_phap', 'Đang cập nhật...')}")
+        st.warning(f"**⚠️ Sai lầm hay mắc phải:** {theory.get('sai_lam', 'Đang cập nhật...')}")
+        st.write("*👉 Sau khi đọc kỹ bí kíp, con hãy chuyển sang thẻ 'Thực Hành Luyện Tập' nhé!*")
 
+    with tab_th:
+        if total_questions > 0:
+            index = st.session_state.current_index
+            if index < total_questions:
+                q = filtered_questions[index]
+                st.write(f"**Tiến độ:** Câu {index + 1} / {total_questions} | 🏆 **Điểm: {st.session_state.score}**")
+                st.progress((index + 1) / total_questions)
+                
+                with st.form(key=f"form_{q['id']}"):
+                    st.info(f"**Câu hỏi:** {q['question']}")
+                    user_ans = st.text_input("Nhập đáp án của con:")
+                    btn_check = st.form_submit_button("Kiểm tra")
+                    
+                if btn_check:
+                    # FIX CASE-SENSITIVE: Ép cả 2 về chữ thường trước khi so sánh
+                    if user_ans.strip().lower() == q["answer"].strip().lower():
+                        st.success("🎉 Xuất sắc! Con làm đúng rồi!")
+                        if not st.session_state.answered:
+                            st.session_state.score += 1
+                            st.session_state.answered = True
+                    else:
+                        st.error(f"❌ Sai rồi. Đáp án chuẩn là: {q['answer']}")
+                        st.session_state.answered = True
+                        ghi_loi_sai(st.session_state.username, q["type"], q["question"])
+                        
+                if st.button("Câu tiếp theo ➡️"):
+                    st.session_state.current_index += 1
+                    st.session_state.answered = False
+                    st.rerun()
+            else:
+                st.success("🏆 HOÀN THÀNH CHUYÊN ĐỀ!")
+                st.write(f"🎯 Điểm tổng kết: {st.session_state.score} / {total_questions}")
+                if st.button("Lưu kết quả và Quay lại"):
+                    ghi_nhat_ky_hoc_tap(st.session_state.username, f"Chuyên đề: {selected_type}", st.session_state.score, total_questions)
+                    st.session_state.current_index = 0
+                    st.rerun()
+
+# --- CHẾ ĐỘ 2: ĐỀ THI TỔNG HỢP ---
 elif mode == "📝 Đề thi tổng hợp":
     st.title("📝 Đề Thi Tổng Hợp (10 Câu)")
     
@@ -155,7 +197,6 @@ elif mode == "📝 Đề thi tổng hợp":
         st.session_state.exam_submitted = False
 
     if not st.session_state.exam_submitted:
-        # Form thi tổng hợp đã chuẩn từ trước
         with st.form("exam_form"):
             user_answers = {}
             for i, q in enumerate(st.session_state.exam_qs):
@@ -171,7 +212,8 @@ elif mode == "📝 Đề thi tổng hợp":
         st.header("📊 BẢNG TỔNG KẾT KẾT QUẢ")
         total_score = 0
         for q in st.session_state.exam_qs:
-            if st.session_state.user_answers[q['id']].strip() == q["answer"].strip():
+            # FIX CASE-SENSITIVE CHO BÀI THI
+            if st.session_state.user_answers[q['id']].strip().lower() == q["answer"].strip().lower():
                 total_score += 1
             else:
                 ghi_loi_sai(st.session_state.username, q["type"], q["question"])
