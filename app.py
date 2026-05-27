@@ -45,7 +45,15 @@ THEORY_DATA = {
 # 2. HỆ THỐNG ĐĂNG NHẬP
 # ==========================================
 st.set_page_config(page_title="App Ôn Tập Toán Lớp 4", page_icon="🧮", layout="wide")
-
+# --- ẨN THANH MENU, ICON GITHUB VÀ FOOTER MẶC ĐỊNH ---
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            header {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
     st.session_state.username = ""
