@@ -49,8 +49,8 @@ st.set_page_config(page_title="App Ôn Tập Toán Lớp 4", page_icon="🧮", l
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
-            header {visibility: hidden;}
             footer {visibility: hidden;}
+            .stDeployButton {display:none;}
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
