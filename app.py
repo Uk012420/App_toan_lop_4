@@ -138,8 +138,15 @@ if mode == "📚 Học theo chuyên đề":
         st.session_state.current_index = 0
         st.session_state.score = 0
         st.session_state.answered = False
+        
+        # Lọc ra tất cả câu hỏi của chủ đề lớp 4 này
+        all_qs = [q for q in questions if q["type"] == selected_type]
+        
+        # Bốc ngẫu nhiên 25 câu (bạn có thể đổi số 25 thành 30 nếu muốn)
+        st.session_state.practice_qs = random.sample(all_qs, min(25, len(all_qs)))
 
-    filtered_questions = [q for q in questions if q["type"] == selected_type]
+    # Chỉ sử dụng 25 câu đã bốc cho phiên học này
+    filtered_questions = st.session_state.practice_qs
     total_questions = len(filtered_questions)
     
     # Chia giao diện thành 2 phần: Lý thuyết và Luyện tập
@@ -183,14 +190,22 @@ if mode == "📚 Học theo chuyên đề":
                     st.session_state.answered = False
                     st.rerun()
             else:
-                st.success("🏆 HOÀN THÀNH CHUYÊN ĐỀ!")
+                st.success("🏆 HOÀN THÀNH BÀI LUYỆN TẬP!")
                 st.write(f"🎯 Điểm tổng kết: {st.session_state.score} / {total_questions}")
-                if st.button("Lưu kết quả và Quay lại"):
+                
+                # Sửa lại nút bấm ở đây
+                if st.button("Lưu kết quả và Luyện tập bộ câu hỏi mới"):
+                    # Vẫn giữ nguyên lệnh lưu điểm lên Google Sheets của lớp 4
                     ghi_nhat_ky_hoc_tap(st.session_state.username, f"Chuyên đề: {selected_type}", st.session_state.score, total_questions)
+                    
+                    # Reset lại trạng thái để bốc bộ câu hỏi mới
                     st.session_state.current_index = 0
+                    st.session_state.score = 0
+                    st.session_state.answered = False
+                    del st.session_state['current_topic'] 
                     st.rerun()
 
-# --- CHẾ ĐỘ 2: ĐỀ THI TỔNG HỢP ---
+# --- Chế độ Đề Thi Tổng Hợp ---
 elif mode == "📝 Đề thi tổng hợp":
     st.title("📝 Đề Thi Tổng Hợp (10 Câu)")
     
@@ -198,7 +213,8 @@ elif mode == "📝 Đề thi tổng hợp":
         exam_qs = []
         for t in list_types:
             qs_of_type = [q for q in questions if q["type"] == t]
-            if len(qs_of_type) >= 2: exam_qs.extend(random.sample(qs_of_type, 2))
+            if len(qs_of_type) >= 2:
+                exam_qs.extend(random.sample(qs_of_type, 2))
         random.shuffle(exam_qs)
         st.session_state.exam_qs = exam_qs
         st.session_state.exam_generated = True
@@ -232,3 +248,28 @@ elif mode == "📝 Đề thi tổng hợp":
             ghi_nhat_ky_hoc_tap(st.session_state.username, "Đề thi tổng hợp", total_score, 10)
             st.session_state.exam_generated = False
             st.rerun()
+
+        # --- PHẦN MỚI TÊNH: CHI TIẾT BÀI LÀM ---
+        st.markdown("---")
+        st.subheader("🔍 CHI TIẾT BÀI LÀM CỦA CON")
+        
+        for i, q in enumerate(st.session_state.exam_qs):
+            user_ans = st.session_state.user_answers[q['id']].strip()
+            correct_ans = q["answer"].strip()
+            is_correct = (user_ans.lower() == correct_ans.lower())
+            
+            # Khối hiển thị câu hỏi và kết quả đúng/sai (Xanh/Đỏ)
+            if is_correct:
+                st.success(f"**Câu {i+1}:** {q['question']}\n\n✅ **Chính xác!** Đáp án của con: **{user_ans}**")
+            else:
+                ans_display = user_ans if user_ans != "" else "(Con chưa làm)"
+                st.error(f"**Câu {i+1}:** {q['question']}\n\n❌ **Chưa đúng rồi.** Đáp án của con: {ans_display} 👉 **Đáp án chuẩn: {correct_ans}**")
+            
+            # Khối hiển thị Cách làm và Lỗi dễ nhầm (Lấy từ bộ THEORY_DATA)
+            theory = THEORY_DATA.get(q["type"], {})
+            phuong_phap = theory.get("phuong_phap", "Đang cập nhật...")
+            sai_lam = theory.get("sai_lam", "Đang cập nhật...")
+            
+            st.info(f"💡 **Cách làm dạng bài này ({q['type']}):**\n{phuong_phap}\n\n⚠️ **Lỗi dễ mắc phải:** {sai_lam}")
+                
+            st.write("---")
