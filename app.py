@@ -7,45 +7,13 @@ from datetime import datetime
 # ==========================================
 # 1. KHAI BÁO CHÌA KHÓA KẾT NỐI (API URL)
 # ==========================================
-# DÁN ĐƯỜNG LINK URL CỦA BẠN VÀO GIỮA 2 DẤU NGOẶC KÉP DƯỚI ĐÂY:
-API_URL = "https://script.google.com/macros/s/AKfycbxGaZ4QILSN8Es3VS0TN4NVfX0lQZCYHHjUyNXrNUxXMCat3hwOrx2tbLKH3qKJUbc/exec"
+API_URL = "https://script.google.com/macros/s/AKfycbxPsA-_TMnYhkaLhln3gUw8Z-s1JwQNinYT7Ad6I60jZqAMdw3dLmaa4_a5M6lbRUdncA/exec"
 
 # ==========================================
-# 1.5 DỮ LIỆU LÝ THUYẾT (Tích hợp sẵn)
-# ==========================================
-THEORY_DATA = {
-    "Trung bình cộng": {
-        "khai_niem": "Số trung bình cộng san đều giá trị của tất cả các số trong một nhóm.",
-        "phuong_phap": "Bước 1: Tính TỔNG các số.\nBước 2: Lấy TỔNG chia cho SỐ CÁC SỐ HẠNG.",
-        "sai_lam": "Quên đóng ngoặc khi tính tổng trước khi chia. Ví dụ sai: 4 + 6 : 2. Đúng phải là: (4 + 6) : 2."
-    },
-    "Tổng và Hiệu": {
-        "khai_niem": "Tìm hai số khi biết tổng cộng và sự chênh lệch (hiệu) của chúng.",
-        "phuong_phap": "Số Lớn = (Tổng + Hiệu) : 2\nSố Bé = (Tổng - Hiệu) : 2\n(Mẹo: Tìm được 1 số rồi, lấy Tổng trừ đi số đó sẽ ra số còn lại rất nhanh).",
-        "sai_lam": "Nhầm lẫn giữa Nửa chu vi và Chu vi hình chữ nhật (Chu vi phải chia 2 mới ra Tổng của chiều dài và chiều rộng)."
-    },
-    "Dấu hiệu chia hết": {
-        "khai_niem": "Nhận biết một số có chia hết cho 2, 3, 5, 9 hay không mà không cần đặt tính.",
-        "phuong_phap": "- Chia hết cho 2: Số tận cùng là 0, 2, 4, 6, 8.\n- Chia hết cho 5: Số tận cùng là 0 hoặc 5.\n- Chia hết cho 3 hoặc 9: Cộng tất cả các chữ số lại, nếu tổng chia hết cho 3 hoặc 9 thì số đó chia hết.",
-        "sai_lam": "Áp dụng sai quy tắc. Ví dụ: Lấy quy tắc của 2,5 (nhìn số cuối) để áp dụng cho 3,9 (phải tính tổng các chữ số)."
-    },
-    "Phân số": {
-        "khai_niem": "Biểu diễn phần bằng nhau của một đơn vị.",
-        "phuong_phap": "- Cộng/Trừ: Phải quy đồng đưa về cùng mẫu số rồi mới cộng/trừ tử số, giữ nguyên mẫu.\n- Nhân: Tử nhân tử, mẫu nhân mẫu.\n- Chia: Phân số thứ nhất NHÂN với phân số thứ hai ĐẢO NGƯỢC.",
-        "sai_lam": "Cộng/Trừ hai phân số mà lại lấy tử cộng tử, mẫu cộng mẫu (Ví dụ sai: 1/2 + 1/3 = 2/5)."
-    },
-    "Hình học": {
-        "khai_niem": "Tính diện tích các hình cơ bản lớp 4.",
-        "phuong_phap": "- Hình bình hành: S = Độ dài đáy x Chiều cao (S = a x h).\n- Hình thoi: S = (Đường chéo 1 x Đường chéo 2) : 2.",
-        "sai_lam": "Quên chia 2 khi tính diện tích hình thoi, hoặc các đơn vị đo độ dài chưa giống nhau đã vội nhân."
-    }
-}
-
-# ==========================================
-# 2. HỆ THỐNG ĐĂNG NHẬP
+# 2. HỆ THỐNG ĐĂNG NHẬP & CẤU HÌNH GIAO DIỆN
 # ==========================================
 st.set_page_config(page_title="App Ôn Tập Toán Lớp 4", page_icon="🧮", layout="wide")
-# --- ẨN THANH MENU, ICON GITHUB VÀ FOOTER MẶC ĐỊNH ---
+
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -54,6 +22,7 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
+
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
     st.session_state.username = ""
@@ -71,51 +40,75 @@ def ghi_loi_sai(username, dang_toan, cau_hoi):
     try: requests.post(API_URL, json=data)
     except: pass
 
+# --- HÀM CHẤM ĐIỂM THÔNG MINH ---
+def kiem_tra_dap_an(user_ans, correct_ans):
+    u = str(user_ans).strip().lower()
+    c = str(correct_ans).strip().lower()
+    
+    # Nếu giống hệt nhau thì đúng luôn
+    if u == c: return True
+    
+    # Xử lý trường hợp có nhiều đáp án (thay thế "và", ";" thành dấu phẩy)
+    u = u.replace(" và ", ",").replace(";", ",")
+    c = c.replace(" và ", ",").replace(";", ",")
+    
+    u_list = [x.strip() for x in u.split(",") if x.strip()]
+    c_list = [x.strip() for x in c.split(",") if x.strip()]
+    
+    # So sánh tập hợp (không phân biệt thứ tự trước sau)
+    if len(c_list) > 1 and set(u_list) == set(c_list):
+        return True
+        
+    return False
+
+# ==========================================
+# 3. LÝ THUYẾT & TẢI DỮ LIỆU
+# ==========================================
+THEORY_DATA = {
+    "Trung bình cộng": {"khai_niem": "Số trung bình cộng san đều giá trị của tất cả các số trong một nhóm.", "phuong_phap": "Bước 1: Tính TỔNG các số.\nBước 2: Lấy TỔNG chia cho SỐ CÁC SỐ HẠNG.", "sai_lam": "Quên đóng ngoặc khi tính tổng trước khi chia. Ví dụ sai: 4 + 6 : 2. Đúng phải là: (4 + 6) : 2."},
+    "Tổng và Hiệu": {"khai_niem": "Tìm hai số khi biết tổng cộng và sự chênh lệch (hiệu) của chúng.", "phuong_phap": "Số Lớn = (Tổng + Hiệu) : 2\nSố Bé = (Tổng - Hiệu) : 2\n(Mẹo: Tìm được 1 số rồi, lấy Tổng trừ đi số đó sẽ ra số còn lại rất nhanh).", "sai_lam": "Nhầm lẫn giữa Nửa chu vi và Chu vi hình chữ nhật."},
+    "Dấu hiệu chia hết": {"khai_niem": "Nhận biết một số có chia hết cho 2, 3, 5, 9 hay không mà không cần đặt tính.", "phuong_phap": "- Chia hết cho 2: Số tận cùng là 0, 2, 4, 6, 8.\n- Chia hết cho 5: Số tận cùng là 0 hoặc 5.\n- Chia hết cho 3 hoặc 9: Cộng tất cả các chữ số lại, nếu tổng chia hết cho 3 hoặc 9 thì số đó chia hết.", "sai_lam": "Lấy quy tắc của 2,5 (nhìn số cuối) để áp dụng cho 3,9 (phải tính tổng các chữ số)."},
+    "Phân số": {"khai_niem": "Biểu diễn phần bằng nhau của một đơn vị.", "phuong_phap": "- Cộng/Trừ: Phải quy đồng đưa về cùng mẫu số rồi mới cộng/trừ tử số, giữ nguyên mẫu.\n- Nhân: Tử nhân tử, mẫu nhân mẫu.\n- Chia: Phân số thứ nhất NHÂN với phân số thứ hai ĐẢO NGƯỢC.", "sai_lam": "Cộng/Trừ hai phân số mà lại lấy tử cộng tử, mẫu cộng mẫu."},
+    "Hình học": {"khai_niem": "Tính diện tích các hình cơ bản lớp 4.", "phuong_phap": "- Hình bình hành: S = Độ dài đáy x Chiều cao (S = a x h).\n- Hình thoi: S = (Đường chéo 1 x Đường chéo 2) : 2.", "sai_lam": "Quên chia 2 khi tính diện tích hình thoi, hoặc đơn vị chưa giống nhau đã vội nhân."}
+}
+
 if not st.session_state.logged_in:
     st.title("🔐 ĐĂNG NHẬP HỆ THỐNG HỌC TẬP")
-    st.write("Ba mẹ hãy tạo một tài khoản (hoặc đăng nhập) để lưu lại tiến độ học của con nhé!")
     
     tab_login, tab_register = st.tabs(["🔑 Đăng nhập", "📝 Đăng ký mới"])
     
     with tab_login:
         with st.form("login_form"):
-            user_input = st.text_input("Tên đăng nhập (Username):")
+            user_input = st.text_input("Tên đăng nhập:")
             pass_input = st.text_input("Mật khẩu:", type="password")
             if st.form_submit_button("Vào học ngay!"):
                 if user_input and pass_input:
                     st.session_state.logged_in = True
                     st.session_state.username = user_input
-                    st.success("Đăng nhập thành công! Đang tải hệ thống...")
                     st.rerun()
-                else:
-                    st.error("Vui lòng nhập đủ thông tin!")
+                else: st.error("Vui lòng nhập đủ thông tin!")
                 
     with tab_register:
         with st.form("register_form"):
             new_user = st.text_input("Tạo tên đăng nhập (Ví dụ: bon2015):")
             new_pass = st.text_input("Tạo mật khẩu:", type="password")
-            new_name = st.text_input("Tên của con (Ví dụ: Bé Bon):")
+            new_name = st.text_input("Tên của con:")
             if st.form_submit_button("Đăng ký tài khoản"):
                 if new_user and new_pass and new_name:
                     data_reg = {"action": "addUser", "sheetName": "Users", "username": new_user, "password": new_pass, "hoTen": new_name}
                     with st.spinner("Đang tạo tài khoản..."):
                         try:
                             requests.post(API_URL, json=data_reg)
-                            st.success("Đăng ký thành công! Ba mẹ hãy chuyển sang tab Đăng nhập để vào học nhé.")
-                        except:
-                            st.error("Có lỗi xảy ra khi kết nối. Vui lòng kiểm tra lại đường link API_URL.")
-                else:
-                    st.error("Vui lòng điền đầy đủ các ô!")
+                            st.success("Đăng ký thành công! Chuyển sang tab Đăng nhập để vào học nhé.")
+                        except: st.error("Lỗi kết nối mạng.")
+                else: st.error("Vui lòng điền đủ các ô!")
     st.stop()
 
-# ==========================================
-# 3. GIAO DIỆN HỌC TẬP CHÍNH
-# ==========================================
 try:
     with open("data_toan_lop_4.json", "r", encoding="utf-8") as f:
         questions = json.load(f)
 except:
-    st.error("Không tìm thấy file dữ liệu. Bạn nhớ tải file data_toan_lop_4.json lên GitHub nhé!")
+    st.error("Không tìm thấy file dữ liệu data_toan_lop_4.json.")
     st.stop()
 
 list_types = list(set([q["type"] for q in questions]))
@@ -128,6 +121,10 @@ if st.sidebar.button("🚪 Đăng xuất"):
     st.session_state.logged_in = False
     st.rerun()
 
+# ==========================================
+# GIAO DIỆN HỌC TẬP CHÍNH
+# ==========================================
+
 # --- CHẾ ĐỘ 1: HỌC THEO CHUYÊN ĐỀ ---
 if mode == "📚 Học theo chuyên đề":
     st.title("📚 Luyện Tập Từng Chuyên Đề")
@@ -139,17 +136,13 @@ if mode == "📚 Học theo chuyên đề":
         st.session_state.score = 0
         st.session_state.answered = False
         
-        # Lọc ra tất cả câu hỏi của chủ đề lớp 4 này
         all_qs = [q for q in questions if q["type"] == selected_type]
-        
-        # Bốc ngẫu nhiên 25 câu (bạn có thể đổi số 25 thành 30 nếu muốn)
+        # Chia nhỏ: Chỉ bốc 25 câu ngẫu nhiên cho mỗi phiên luyện tập
         st.session_state.practice_qs = random.sample(all_qs, min(25, len(all_qs)))
 
-    # Chỉ sử dụng 25 câu đã bốc cho phiên học này
     filtered_questions = st.session_state.practice_qs
     total_questions = len(filtered_questions)
     
-    # Chia giao diện thành 2 phần: Lý thuyết và Luyện tập
     tab_lt, tab_th = st.tabs(["📖 Đọc Lý Thuyết Trước", "✍️ Thực Hành Luyện Tập"])
     
     with tab_lt:
@@ -158,7 +151,6 @@ if mode == "📚 Học theo chuyên đề":
         st.info(f"**📌 Khái niệm:** {theory.get('khai_niem', 'Đang cập nhật...')}")
         st.success(f"**💡 Phương pháp giải:**\n{theory.get('phuong_phap', 'Đang cập nhật...')}")
         st.warning(f"**⚠️ Sai lầm hay mắc phải:** {theory.get('sai_lam', 'Đang cập nhật...')}")
-        st.write("*👉 Sau khi đọc kỹ bí kíp, con hãy chuyển sang thẻ 'Thực Hành Luyện Tập' nhé!*")
 
     with tab_th:
         if total_questions > 0:
@@ -174,8 +166,8 @@ if mode == "📚 Học theo chuyên đề":
                     btn_check = st.form_submit_button("Kiểm tra")
                     
                 if btn_check:
-                    # FIX CASE-SENSITIVE: Ép cả 2 về chữ thường trước khi so sánh
-                    if user_ans.strip().lower() == q["answer"].strip().lower():
+                    # SỬ DỤNG HÀM CHẤM ĐIỂM THÔNG MINH
+                    if kiem_tra_dap_an(user_ans, q["answer"]):
                         st.success("🎉 Xuất sắc! Con làm đúng rồi!")
                         if not st.session_state.answered:
                             st.session_state.score += 1
@@ -190,22 +182,17 @@ if mode == "📚 Học theo chuyên đề":
                     st.session_state.answered = False
                     st.rerun()
             else:
-                st.success("🏆 HOÀN THÀNH BÀI LUYỆN TẬP!")
+                st.success("🏆 HOÀN THÀNH CHUYÊN ĐỀ!")
                 st.write(f"🎯 Điểm tổng kết: {st.session_state.score} / {total_questions}")
-                
-                # Sửa lại nút bấm ở đây
                 if st.button("Lưu kết quả và Luyện tập bộ câu hỏi mới"):
-                    # Vẫn giữ nguyên lệnh lưu điểm lên Google Sheets của lớp 4
                     ghi_nhat_ky_hoc_tap(st.session_state.username, f"Chuyên đề: {selected_type}", st.session_state.score, total_questions)
-                    
-                    # Reset lại trạng thái để bốc bộ câu hỏi mới
                     st.session_state.current_index = 0
                     st.session_state.score = 0
                     st.session_state.answered = False
                     del st.session_state['current_topic'] 
                     st.rerun()
 
-# --- Chế độ Đề Thi Tổng Hợp ---
+# --- CHẾ ĐỘ 2: ĐỀ THI TỔNG HỢP ---
 elif mode == "📝 Đề thi tổng hợp":
     st.title("📝 Đề Thi Tổng Hợp (10 Câu)")
     
@@ -213,8 +200,7 @@ elif mode == "📝 Đề thi tổng hợp":
         exam_qs = []
         for t in list_types:
             qs_of_type = [q for q in questions if q["type"] == t]
-            if len(qs_of_type) >= 2:
-                exam_qs.extend(random.sample(qs_of_type, 2))
+            if len(qs_of_type) >= 2: exam_qs.extend(random.sample(qs_of_type, 2))
         random.shuffle(exam_qs)
         st.session_state.exam_qs = exam_qs
         st.session_state.exam_generated = True
@@ -236,8 +222,9 @@ elif mode == "📝 Đề thi tổng hợp":
         st.header("📊 BẢNG TỔNG KẾT KẾT QUẢ")
         total_score = 0
         for q in st.session_state.exam_qs:
-            # FIX CASE-SENSITIVE CHO BÀI THI
-            if st.session_state.user_answers[q['id']].strip().lower() == q["answer"].strip().lower():
+            user_ans = st.session_state.user_answers[q['id']]
+            # SỬ DỤNG HÀM CHẤM ĐIỂM THÔNG MINH
+            if kiem_tra_dap_an(user_ans, q["answer"]):
                 total_score += 1
             else:
                 ghi_loi_sai(st.session_state.username, q["type"], q["question"])
@@ -249,27 +236,23 @@ elif mode == "📝 Đề thi tổng hợp":
             st.session_state.exam_generated = False
             st.rerun()
 
-        # --- PHẦN MỚI TÊNH: CHI TIẾT BÀI LÀM ---
+        # --- CHI TIẾT BÀI LÀM (XANH/ĐỎ VÀ GIẢI THÍCH) ---
         st.markdown("---")
         st.subheader("🔍 CHI TIẾT BÀI LÀM CỦA CON")
         
         for i, q in enumerate(st.session_state.exam_qs):
             user_ans = st.session_state.user_answers[q['id']].strip()
             correct_ans = q["answer"].strip()
-            is_correct = (user_ans.lower() == correct_ans.lower())
+            is_correct = kiem_tra_dap_an(user_ans, correct_ans)
             
-            # Khối hiển thị câu hỏi và kết quả đúng/sai (Xanh/Đỏ)
             if is_correct:
                 st.success(f"**Câu {i+1}:** {q['question']}\n\n✅ **Chính xác!** Đáp án của con: **{user_ans}**")
             else:
                 ans_display = user_ans if user_ans != "" else "(Con chưa làm)"
                 st.error(f"**Câu {i+1}:** {q['question']}\n\n❌ **Chưa đúng rồi.** Đáp án của con: {ans_display} 👉 **Đáp án chuẩn: {correct_ans}**")
             
-            # Khối hiển thị Cách làm và Lỗi dễ nhầm (Lấy từ bộ THEORY_DATA)
             theory = THEORY_DATA.get(q["type"], {})
             phuong_phap = theory.get("phuong_phap", "Đang cập nhật...")
             sai_lam = theory.get("sai_lam", "Đang cập nhật...")
-            
             st.info(f"💡 **Cách làm dạng bài này ({q['type']}):**\n{phuong_phap}\n\n⚠️ **Lỗi dễ mắc phải:** {sai_lam}")
-                
             st.write("---")
